@@ -1,0 +1,24 @@
+name: item_photo_app
+description: A Flutter app to manage items and photos using the phone's camera.
+
+# The version number of your app. Format: major.minor.patch+build
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  path_provider: ^2.0.11
+  image_picker: ^0.8.6
+  permission_handler: ^10.2.0
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
